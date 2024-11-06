@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../ex4.javascript"
+		},
+		{
+			"path": "../../dom-ex3.javascript"
+		},
+		{
+			"path": "../../dom-ex4.javascript"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dom-ex4.javascript"
+	}
+}
