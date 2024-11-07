@@ -1,0 +1,100 @@
+.ideias_presente{
+    
+    display: flex;
+}
+
+
+
+.ideias_presente p{
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+
+}
+
+.ideias_presente img{
+    height: 50%;
+    width: 50%;
+}
+
+
+#Presentes{
+    border: 2px solid;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.texto_presente{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.como_escolher{
+    background-color: rgb(252, 199, 134);
+    display: flex;
+}
+
+.como_escolher img{
+    height: 70%;
+    width: 50%;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.como_escolher p{
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+
+}
+
+.como_escolher h2{
+    font-family: "Pinyon Script", cursive;
+    animation: none;
+}
+
+
+.card_feminino{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 65px;
+        /* width: 100%; */
+    padding: 1rem;
+        /* margin-top: 1rem;*/
+    
+    }
+    
+.cards{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+     
+    background: rgb(133, 1, 1);
+    padding: 1rem;
+    text-align: center;
+}
+    
+    
+    
+.cards p{
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+}
+    
+.cards img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Presentes p{
+    color: black;
+}
