@@ -110,10 +110,14 @@ nav{
     padding: 0;
 }
 
-p{
+#evento p{
 
     color: aliceblue;
     font-size: 2rem;
+}
+
+p {
+    color: aliceblue;
 }
 
 
@@ -172,6 +176,10 @@ p{
     border: 2px solid;
     width: 100%;
     height: 100%;
+    display: flex;
+    font-family: "Bona Nova SC", serif;
+    margin-bottom: 30px;
+    
 }
 
 #Cadastro{
@@ -184,4 +192,20 @@ p{
     border: 2px solid;
     width: 100%;
     height: 100%;
+}
+
+.texto {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1rem;
+  
+}
+
+#titulo-comidas {
+    font-size: 10rem;
+}
+
+span {
+    font-weight: bold;
 }
