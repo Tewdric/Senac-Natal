@@ -4,11 +4,10 @@
     font-size: 20px;
 }
 
-.Comidas article{
-    width: 50%;
-    height: 100%;
-    padding: 10px;
-    text-align: justify;
+.texto{
+    display: flex;
+    flex-direction: column;
+    color: black;
 }
 
 .Comidas img{

@@ -37,13 +37,15 @@
     display: flex;
     height: 100%;
     flex-direction: column;
-    gap: 20px;
+
     text-align: justify;
+    margin-bottom: 10%;
 }
 
 .Presentes h1,h2{
     animation: none;
     color: black;
+
 }
 .texto_presente{
     display: flex;
@@ -171,13 +173,49 @@ nav img{
     font-family: "Bona Nova SC", serif;
     font-weight: 700;
     color: black;
+    
 }
 
 .presentes_femininos{
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 #texto_card{
     color: white;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133, 1, 1);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer li{
+    list-style: none;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
 }
