@@ -1,0 +1,19 @@
+.Comidas p{
+    color: black;
+    width: 100%;
+    font-size: 20px;
+}
+
+.Comidas article{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.Comidas img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: 10px;
+}

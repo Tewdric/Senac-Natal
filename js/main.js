@@ -25,3 +25,5 @@ function atualizarContador() {
 evento.appendChild(contador)
 // Chame a função para iniciar a contagem regressiva e atualizar a cada segundo
 const interval = setInterval(atualizarContador, 1000);
+
+
