@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/card.css">
     <link rel="stylesheet" href="/css/cadastro.css">
+    <link rel="shortcut icon" type="imagex/png" href="/image/PinClipart.com_boulders-clipart_5453459.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -73,12 +74,18 @@
             <div class="Cadastro" id="cadastro">
                
                 <h1>Cadastro</h1>
-                <form action="">
+                <form 
+                action="https://formsubmit.co/2a6f00b90f9ae16feddd5e803f42df6c"
+                method="POST"
+                data-form>
                     <label for="nome">Digite seu nome:</label><br>
-                    <input type="text" name="nome" placeholder="Digite seu nome"><br>
+                    <input type="text" name="name" placeholder="Digite seu nome" id="name" required>
+                    <br>
                     <label for="email">Digite seu E-mail: </label><br>
-                    <input type="email" name="email" placeholder="Digite seu E-mail"><br><br>
-                    <input type="submit" value="ENVIAR" id="btn-enviar">
+                    <input type="email" name="email" placeholder="Digite seu E-mail" id="email" required>
+                    <br>
+                    <br>
+                    <button type="submit" id="emailButton" data-button>ENVIAR</button>
                 </form>
             </div>
         </section>
@@ -102,7 +109,9 @@
     </div>
 
     <script src="js/main.js"></script>
-    <script src="js/cadastro.js"></script>
+   <script src="js/cadastro.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
 </body>
 
 </html>
