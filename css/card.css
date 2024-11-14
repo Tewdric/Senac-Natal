@@ -8,7 +8,7 @@
 
     /* margin-top: 1rem;*/
     padding: 20px;
-
+    margin: 20px;
 }
 
 .card {
@@ -92,7 +92,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 100%;
+height: 97%;
 left: 0;
 visibility: hidden;
 transition: .2s left;
@@ -100,7 +100,7 @@ border-radius: 20px;
 }
 
 .filmes p,b{
-    font-size: 130%;
+    font-size: 100%;
 
 }
 .filmes {
@@ -121,9 +121,28 @@ border-radius: 20px;
 
 
 
-@media(max-width:400px) {
+@media(max-width:430px) {
 
     .Pulseiras {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+    .filmes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-filme{
+        height: 100%;
+    }
+
+    .card-filme img{
+        height: 100%;
+    
+    }
+
+    #nozes{
+        margin-top: 70%;
+        gap: 50px;
     }
 }

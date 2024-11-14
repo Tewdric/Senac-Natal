@@ -111,3 +111,15 @@ fieldset{
     height: 100%;
     gap: 10px;
 }
+
+
+@media(max-width:420px) {
+
+    .Cadastro {
+        width: 100%;
+    }
+    
+    form{
+        width: 90%;
+    }
+}

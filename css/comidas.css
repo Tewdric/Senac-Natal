@@ -16,3 +16,32 @@
     object-fit: cover;
     padding-left: 10px;
 }
+
+#titulo-comidas {
+    font-size: 10rem;
+}
+.Comidas{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Bona Nova SC", serif;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:420px){
+    .Comidas{
+        flex-direction: column;
+    }
+
+    #comidas{
+        margin-top: 50%;
+    }
+
+    .Comidas img{
+        width: 100%;
+
+    }
+}

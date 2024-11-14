@@ -150,23 +150,6 @@ a:hover{
     transition: .3s;
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgb(133, 1, 1);
-    width: 100%;
-    height: 10%;
-    position: fixed;
-    text-align: start;
-}
-
-nav img{
-    width: 10%;
-    height: 100%;
-    object-fit: contain;
-}
-
 .presentes_femininos p{
 
     font-size: 20px;
@@ -188,34 +171,39 @@ nav img{
 #texto_card{
     color: white;
 }
-footer{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(133, 1, 1);
-    color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-footer li{
-    list-style: none;
-}
+@media(max-width:420px) {
 
-.info{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    text-align: start;
-    align-items: center;
-}
+    .ideias_presente{
+        margin-top: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+    }
 
-#lista{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    .ideias_presente img{
+        width: 100%;
+    }
 
+    .como_escolher{
+        width: 100%;
+        margin-top: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .como_escolher img{
+        width: 100%;
+    }
+
+    .Presentes{
+        gap: none;
+    }
+
+    .presentes_femininos{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .card_feminino{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

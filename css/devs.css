@@ -4,12 +4,10 @@ body {
     padding: 0;
 }
 
-
-.container_devs{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+#nozes{
+    margin-top: 8%;
 }
+
 .Pulseiras_dev {
     margin-top: 10%;
     display: grid;
@@ -81,13 +79,6 @@ body {
 
 }
 
-@media(max-width:400px) {
-
-    .Pulseiras {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 .card h2 {
     color: white;
 }
@@ -95,3 +86,12 @@ body {
 .contato{
     text-align: center;
 }
+
+@media(max-width:420px) {
+
+    .Pulseiras {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
