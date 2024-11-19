@@ -172,7 +172,7 @@ a:hover{
     color: white;
 }
 
-@media(max-width:420px) {
+@media(max-width:430px) {
 
     .ideias_presente{
         margin-top: 100%;

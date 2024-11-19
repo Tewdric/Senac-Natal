@@ -146,3 +146,24 @@ border-radius: 20px;
         gap: 50px;
     }
 }
+
+@media(min-width: 431px){
+    .Pulseiras {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .filmes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 900px ){
+    .Pulseiras {
+        grid-template-columns: repeat(3, 1fr);
+
+
+    }
+    .filmes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
